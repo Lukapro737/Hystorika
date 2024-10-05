@@ -1,0 +1,186 @@
+
+h3{text-align: center;}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#FFE7D8;
+}
+title{
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+    border-color: #333;
+}
+
+.user-options {
+    margin-left: auto; /* Align user options to the right */
+}
+
+main {
+    padding: 20px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.creator-name {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.comment-section {
+    margin-top: 20px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.comment-form button {
+    display: block;
+    margin-left: auto;
+}
+h1{text-align: center;}
+h2{text-align: left;}
+.login-php, .signup-php{
+    background-color:#1A7F64 ;
+}
+.signup-php{margin-left: 10px;}
+
+.language-selector {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .flag-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .flag-btn img {
+    width: 40px; /* Set width to 50 pixels */
+    height: auto; /* Maintain aspect ratio */
+    margin-left:0px;
+  }
+
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .column {
+    margin: 5px;
+  }
+  
+  .column img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .column img:hover {
+    transform: scale(1.05);
+  }
+  
+  .ww1i2{ font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;        
+            text-decoration: wavy !important;
+            color:black;
+            transition: transform 0.3s ease;
+}
+
+.ww1i2:hover{
+    transform: scale(2);
+    color:#034694;
+}
+
+.imena{
+        font-size: 24px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(4, 13, 138);
+}
+
+.komentari{
+            font-size: 22px;
+        
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.gw2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.ratovi1{
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
